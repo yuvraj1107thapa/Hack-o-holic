@@ -1,4 +1,4 @@
-# BechdeNitsLocal
+# BechdeGEHU (OLX)
 🌀 BECHDE GEHU - E-commerce project made with React ,Express ,Node ,MongoDB
 
 ### User Permissions
