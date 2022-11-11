@@ -1,0 +1,144 @@
+/* Home */
+#home{
+  background: rgb(0, 101, 219);
+  background: linear-gradient(90deg, rgb(0,101,219) 50%, rgba(0, 212, 255, 1) 100%);
+  height: 500px;
+}
+.nav-link{
+  font-weight: bold;
+}
+#sellmain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cardposshift{
+margin-left: 65px;
+}
+.classicalimg{
+  height:300px;
+  width: 530px;
+  margin-top: 50px;
+}
+.price {
+  font-size: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .classicalimg{
+    height: 200px;
+    width: 400px;
+    margin-left: 20px;
+  }
+  #cntcimg{
+    margin-left: 50px;
+  }
+  #abtimg{
+    margin-left: 50px;
+  }
+}
+/* .navbar{
+ position: fixed;
+} */
+.logos{
+  height:4rem;
+}
+/* Cards */
+.card{
+  transition: all 0.5s ease;
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+#headlog{
+  color:rgb(255, 255, 255)
+}
+#imgset{
+  width:200px;
+  height:150px;
+}
+#loginimg{
+  background-image: url('./images/about1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+/* Form */
+.form{
+  background: rgb(6, 7, 7);
+  background: linear-gradient(90deg, rgb(0,101,219) 30%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* Footer */
+.footer{
+  background: rgb(0, 101, 219);
+  background: linear-gradient(90deg, rgb(0,101,219) 40%, rgba(0, 212, 255, 1) 100%);
+}
+#fromdes input[type=text]{
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #4337E3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+#fromdes input[type=tel]{
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #4337E3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+#fromdes label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+#fromdes input[type=submit] {
+background-color: #637fb9;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+margin-top: 4vh;
+}
+#fromdes .col-25 {
+float: left;
+width: 25%;
+margin-top: 6px;
+}
+#fromdes .col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+}
+#fromdes .row:after {
+content: "";
+display: table;
+clear: both;
+}
+#contentpos main,#buypos main{
+display: flex;
+      align-items: center;
+      justify-content: center;
+}
+#contentpos{
+  margin-top: -40vh;
+  min-height: 400px;
+}
+#buypos{
+  margin-top: -30vh;
+  min-height: 400px;
+}
+#reporttab{
+  margin-top: 110px;
+}
+#lgot{
+  margin-left: 3px;
+  height: 24px;
+}
+.lgpos{
+  height: 500px;
+  text-align: center;
+}
