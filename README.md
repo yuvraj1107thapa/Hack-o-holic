@@ -5,7 +5,7 @@
 ---
 
 #### Students
-* register himself on the app
+* register himself/herself on the app
 * provide various details like  profile link, email, phone number, username
 * upload details of a product to be sold online (to be verified by admin)
 * can view all products from all sellers
